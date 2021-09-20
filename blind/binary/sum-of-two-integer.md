@@ -13,9 +13,6 @@
 so if you want to get a negative number, you can simply do ~x + 1
 ```
 
-Time Complexity : O(n) <- n is input bit length
-Space Complexity : O(1)
-
 ### Idea - 1
 Use Iteration
 
@@ -25,6 +22,8 @@ Use Iteration
 3. Move carry left as one. 
 
 ### Code
+Time Complexity : O(n) <- n is input bit length \
+Space Complexity : O(1)
 ```java
 class Solution {
     public int getSum(int a, int b) {
