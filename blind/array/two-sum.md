@@ -3,6 +3,13 @@
 Time Complexity : O(n) \
 Space Complexity : O(n)
 
+### Problem
+Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.
+
+You may assume that each input would have exactly one solution, and you may not use the same element twice.
+
+You can return the answer in any order.
+
 ### Idea
 Using the brute force takes a time complexity of O(n^2). If we put it in the map in advance while searching, we can optimize it to O(n).
 
