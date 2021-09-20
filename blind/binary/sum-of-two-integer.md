@@ -41,3 +41,21 @@ class Solution {
 }
 ```
 
+
+### Idea - 1
+Use Recursive
+
+### Solution
+1. Get carry, used by and gate.
+2. Remain different values.
+3. Move carry left as one. 
+
+### Code
+```java
+class Solution {
+    public int getSum(int a, int b) {
+        return b == 0 ? a : getSum(a ^ b, (a & b) << 1);
+    }
+}
+```
+
