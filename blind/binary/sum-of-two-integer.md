@@ -15,11 +15,29 @@ so if you want to get a negative number, you can simply do ~x + 1
 Time Complexity : 
 Space Complexity : 
 
-### Idea
+### Idea - 1
+Use Iteration
 
 ### Solution
+1. Get carry, used by and gate.
+2. Remain different values.
+3. Move carry left as one. 
 
 ### Code
 ```java
+class Solution {
+    public int getSum(int a, int b) {
+        if(a == 0) return b;
+        if(b == 0) return a;
+        
+        while(b != 0) {
+            int carry = a & b;
+            a = a ^ b;
+            b = carry << 1;
+        }
+        
+        return a;
+    }
+}
 ```
 
