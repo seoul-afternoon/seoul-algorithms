@@ -42,7 +42,7 @@ class Solution {
 ```
 
 
-### Idea - 1
+### Idea - 2
 Use Recursive
 
 ### Solution
