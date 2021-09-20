@@ -12,8 +12,9 @@
 
 so if you want to get a negative number, you can simply do ~x + 1
 ```
-Time Complexity : 
-Space Complexity : 
+
+Time Complexity : O(n) <- n is input bit length
+Space Complexity : O(1)
 
 ### Idea - 1
 Use Iteration
