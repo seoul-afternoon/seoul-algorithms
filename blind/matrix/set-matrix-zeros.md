@@ -16,7 +16,7 @@ Collect index and iterating
 3. [0-length-1]rows = 0
 
 ### Code
-Time Complexity : O(n^2)
+Time Complexity : O(n^2) \
 Space Complexity : O(m) <- (zero index count * 2) + 2
 ```java
 class Solution {
